@@ -1,0 +1,11 @@
+*{padding: 0; margin: o; box-sizing: border-box;}
+body{
+    overflow-x: hidden;
+}
+h1{
+    
+ font-family: "Dancing Script", cursive;
+}
+button{
+    bs-primary
+}

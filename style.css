@@ -1,0 +1,77 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: "Dancing Script", cursive;
+}
+
+button {
+    /* Replace bs-primary with real Bootstrap class or styles */
+    background-color: #0d6efd;
+    color: rgb(117, 212, 239);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+.dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+
+.tech-btn {
+  padding: 20px 40px;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 160px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tech-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}
+.gray-placeholder::placeholder {
+  background-color: #d3d3d3;
+  color: #555;
+}
+.gray-placeholder::placeholder {
+  background-color: #d3d3d3;
+  color: #555;
+}
+input,
+textarea {
+  background-color: rgb(120, 194, 240);
+}
+
+input::placeholder,
+textarea::placeholder {
+  border-radius: 5px;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+
+
+
